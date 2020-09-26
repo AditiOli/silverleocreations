@@ -1,0 +1,158 @@
+/* INDEX STYLING*/
+body {
+  background-color: #e4f9f5;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  padding: 3.125rem;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 20%;
+  border-width: 5px;
+  border-color: silver;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.top-container {
+  text-align: center;
+}
+
+.top-heading {
+  color: #66bfbf;
+}
+
+h1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 5.625rem;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 1.75rem;
+  /*font-weight: normal;*/
+}
+
+img {
+  width: 21.25rem;
+  height: 21.25rem;
+  margin: 20px;
+  /* padding: 20px; */
+}
+
+.sketchs {
+  margin: 20px;
+  text-align: center;
+  height: 21.25rem;
+}
+
+img:hover {
+  background-color: #ad9d9d;
+  opacity: 0.3;
+}
+
+/* .col-lg-3{
+  margin: 0.625rem auto 0.625rem auto;
+  width: 18.75rem;
+  height: 18.75rem;
+} */
+/* ABOUTME STYLING*/
+.aboutme-image {
+  border-radius: 100%;
+  margin: auto;
+}
+
+.aboutMe {
+  text-align: center;
+  padding-top: 10px;
+  line-height: 1.6;
+  margin: 5% auto 10px auto;
+  font-weight: 500;
+  font-family: 'Satisfy', cursive;
+}
+
+/* CONTACT STYLING*/
+.contact {
+  padding: 5%;
+  text-align: center;
+}
+
+#contacts {
+  padding: 2% 30%;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.contact-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.mail-phone {
+  color: #1e90ff;
+}
+
+.contact-line {
+  font-weight: 500;
+  font-family: 'Satisfy', cursive;
+}
+
+.btn {
+  text-decoration: underline;
+  font-weight: 300;
+  font-size: 1.25rem;
+}
+
+/* MEDIA QUERIES */
+@media (max-width:1028px) {
+  body {
+    text-align: center;
+  }
+}
+
+@media (max-width:1028px) {
+  .aboutMe{
+    text-align: center;
+    font-size: 26px;
+  }
+}
+@media (max-width:1028px){
+  .contact-line{
+
+    text-align: center;
+  }
+}
+  @media (max-width:1028px){
+    .mail-phone{
+      font-size: 27px;
+      text-align: center;
+    }
+}
+@media (max-width:1028px){
+  .copyright{
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+@media (max-width:1028px){
+  h4{
+    font-size: 30px;
+    text-align: center;
+  }
+}
+@media (max-width:1028px){
+  .nav-link{
+    font-size: 1.7rem;
+
+  }
+}
