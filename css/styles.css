@@ -1,9 +1,10 @@
 /* INDEX STYLING*/
 body {
-  background-color: #e4f9f5;
+  background-color:#000;
   margin: 0;
   font-family: 'Merriweather', serif;
   padding: 3.125rem;
+  color: #fff;
 }
 
 hr {
@@ -42,16 +43,25 @@ h2 {
 }
 
 img {
-  width: 21.25rem;
-  height: 21.25rem;
+  /* width: 21.25rem;
+  height: 21.25rem; */
   margin: 20px;
+  width:100%;
   /* padding: 20px; */
 }
 
-.sketchs {
+/* .sketchs {
   margin: 20px;
+  /* text-align: center; */
+  /* height: 21.25rem;
+} */
+
+ .babySketch{
+  height:25%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
-  height: 21.25rem;
 }
 
 img:hover {
@@ -59,11 +69,6 @@ img:hover {
   opacity: 0.3;
 }
 
-/* .col-lg-3{
-  margin: 0.625rem auto 0.625rem auto;
-  width: 18.75rem;
-  height: 18.75rem;
-} */
 /* ABOUTME STYLING*/
 .aboutme-image {
   border-radius: 100%;
@@ -98,7 +103,7 @@ img:hover {
 }
 
 .mail-phone {
-  color: #1e90ff;
+  color: #66bfbf;
 }
 
 .contact-line {
@@ -110,6 +115,7 @@ img:hover {
   text-decoration: underline;
   font-weight: 300;
   font-size: 1.25rem;
+  color:#fff;
 }
 
 /* MEDIA QUERIES */
@@ -120,39 +126,42 @@ img:hover {
 }
 
 @media (max-width:1028px) {
-  .aboutMe{
+  .aboutMe {
     text-align: center;
     font-size: 26px;
   }
 }
-@media (max-width:1028px){
-  .contact-line{
 
+@media (max-width:1028px) {
+  .contact-line {
     text-align: center;
   }
 }
-  @media (max-width:1028px){
-    .mail-phone{
-      font-size: 27px;
-      text-align: center;
-    }
+
+@media (max-width:1028px) {
+  .mail-phone {
+    font-size: 27px;
+    text-align: center;
+  }
 }
-@media (max-width:1028px){
-  .copyright{
+
+@media (max-width:1028px) {
+  .copyright {
     font-size: 30px;
     text-align: center;
   }
 }
 
-@media (max-width:1028px){
-  h4{
+@media (max-width:1028px) {
+  h4 {
     font-size: 30px;
     text-align: center;
   }
 }
-@media (max-width:1028px){
-  .nav-link{
+
+@media (max-width:1028px) {
+  .nav-link {
     font-size: 1.7rem;
-
   }
 }
+
